@@ -6,6 +6,6 @@ jobs:
     name: static analysis
     steps:
     - name: Run jsPerformoBot
-      uses: florianmarkusse/jsPerformoBot@v1.4.19
+      uses: florianmarkusse/jsPerformoBot@v1.4.20
       with:
         repo-token: ${{secrets.GITHUB_TOKEN}}
