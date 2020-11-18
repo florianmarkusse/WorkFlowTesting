@@ -6,9 +6,10 @@ jobs:
     name: static analysis
     steps:
     - uses: actions/checkout@v2
+
     - uses: actions/setup-node@v1
       with:
-      node-version: '14'
+        node-version: '14.15.1'
 
     - name: Run jsPerformoBot
       uses: florianmarkusse/jsPerformoBot@v1.4.44
