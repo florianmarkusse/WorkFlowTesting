@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: static analysis
     steps:
+    - uses: actions/checkout@v2
+
     - name: Run jsPerformoBot
-      uses: florianmarkusse/jsPerformoBot@v1.4.39
+      uses: florianmarkusse/jsPerformoBot@v1.4.40
       with:
         repo-token: ${{secrets.GITHUB_TOKEN}}
