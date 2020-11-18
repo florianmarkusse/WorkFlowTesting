@@ -12,6 +12,6 @@ jobs:
         node-version: '14.15.1'
 
     - name: Run jsPerformoBot
-      uses: florianmarkusse/jsPerformoBot@v1.4.44
+      uses: florianmarkusse/jsPerformoBot@v1.4.45
       with:
         repo-token: ${{secrets.GITHUB_TOKEN}}
