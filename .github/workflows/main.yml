@@ -7,11 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '14.15.1'
-
     - name: Run jsPerformoBot
-      uses: florianmarkusse/jsPerformoBot@v1.4.49
+      uses: florianmarkusse/jsPerformoBot@v1.4.50
       with:
         repo-token: ${{secrets.GITHUB_TOKEN}}
