@@ -8,6 +8,6 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Run jsPerformoBot
-      uses: florianmarkusse/jsPerformoBot@v1.4.74
+      uses: florianmarkusse/jsPerformoBot@v1.4.75
       with:
         repo-token: ${{secrets.GITHUB_TOKEN}}
